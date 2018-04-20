@@ -11,7 +11,11 @@
 </head>
 <body>
 <div class="container" style="margin-top: 50px">
-<form method="post" action="post.php?id=11">
+<form method="post" action="/test.project/addUser.php">
+    <div class="form-group">
+        <label for="exampleInputName1">Name</label>
+        <input name="name" type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name">
+    </div>
     <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
